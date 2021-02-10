@@ -1,59 +1,67 @@
-body {
-    color: rgb(11, 11, 77);
-}
-
-body font-face {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14 px;
-    font-weight: lighter;
-    font-style: normal;
-}
-
-ul,
-li,
-main,
-#blue-background {
-    background-color: rgb(186, 230, 233);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16 px;
-    font-weight: bold;
-    font-style: normal;
-}
-
-img,
-.black-border {
-    border: 3px solid rgb(11, 47, 146);
-}
-
-h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 24 px;
-    font-weight: bold;
-    font-style: normal;
-}
-
-h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20 px;
-    font-weight: bold;
-    font-style: normal;
-}
-
-h3 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18 px;
-    font-weight: bold;
-    font-style: normal;
-}
-
-p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12 px;
-    font-weight: lighter;
-    font-style: normal;
-}
-
-footer,
-.black-border {
-    border: 3px solid darkblue
-}
+    body {
+        color: rgb(11, 11, 77);
+    }
+    
+    body font-face {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14 px;
+        font-weight: lighter;
+        font-style: normal;
+    }
+    
+    main,
+    .blue-background {
+        background-color: rgb(186, 230, 233);
+        width: 400px;
+        border: 5px solid rgb(11, 11, 77);
+        padding: 55px;
+        margin: top 40px, right 25px, bottom 55px, left 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        font-style: normal;
+    }
+    
+    #img src="xandrafoto.jpeg" {
+        margin: top 40px, right 105px, bottom 55px, left 95px;
+    }
+    
+    h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        font-style: normal;
+    }
+    
+    h2 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: normal;
+    }
+    
+    h3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        font-style: normal;
+    }
+    
+    p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        font-weight: lighter;
+        font-style: normal;
+    }
+    
+    footer,
+    .black-border {
+        border: 3px solid darkblue;
+        width: 280px;
+        padding: 20px;
+        margin: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 9px;
+        font-weight: lighter;
+        font-style: normal;
+    }
